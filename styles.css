@@ -112,14 +112,14 @@ a{
     font-size: 15px;
 
 }
-.header-big-image{
-    /* width: 540px; */
-    /* height: 200px; */
+.header-big-image img{
+    width: 580px;
+    height: 200px;
     flex: 1 1 0%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #4e5259;
+    /* background-color: #4e5259; */
     display: flex;
     flex-direction: column; 
 }
@@ -165,12 +165,14 @@ a{
     /* padding: 50px; */
     text-align: center;
     color: #565d5d;
-    font-weight: 500;
+    font-weight: 500; 
     font-size: 18px;
     
 }
 
 .row-item img{
+    height: 210px;
+    width: auto;
     border: 5px solid #3882f6;
     border-radius: 8%;
     flex: 0 0 auto;
